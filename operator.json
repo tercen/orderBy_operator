@@ -1,10 +1,32 @@
 {
   "name": "Median",
-  "description": "Return the medium value of a cell",
-  "tags": ["basic statistics"],
+  "description": "Order data according to row- or column-wise metrics.",
+  "tags": ["basic operations"],
   "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/template_operator"],
-  "properties": []
+  "urls": ["https://github.com/tercen/orderBy_operator"],
+  "properties": [
+  {
+    "kind": "BooleanProperty",
+    "name": "decreasing",
+    "defaultValue": false,
+    "description": "Should the sort order be increasing or decreasing?"
+  },
+  {
+    "kind": "EnumeratedProperty",
+    "name": "function",
+    "defaultValue": "mean",
+    "values": [
+      "mean",
+      "median",
+      "sd",
+      "var",
+      "min",
+      "max",
+      "IQR"
+    ],
+    "description": "Function to apply row- and column-wise."
+  }
+  ]
 }
 
 
