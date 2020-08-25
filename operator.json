@@ -1,5 +1,5 @@
 {
-  "name": "Median",
+  "name": "OrderBy",
   "description": "Order data according to row- or column-wise metrics.",
   "tags": ["basic operations"],
   "authors": ["tercen"],
