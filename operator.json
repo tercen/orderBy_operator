@@ -1,6 +1,6 @@
 {
-  "name": "OrderBy",
-  "description": "Order data according to row- or column-wise metrics.",
+  "name": "Order By",
+  "description": "Order data according to row-wise or column-wise metrics.",
   "tags": ["basic operations"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/orderBy_operator"],
