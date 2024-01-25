@@ -1,33 +1,37 @@
 {
   "name": "Order By",
   "description": "Order data according to row-wise or column-wise metrics.",
-  "tags": ["basic operations"],
-  "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/orderBy_operator"],
+  "tags": [
+    "preprocessing"
+  ],
+  "authors": [
+    "tercen"
+  ],
+  "urls": [
+    "https://github.com/tercen/orderBy_operator"
+  ],
   "properties": [
-  {
-    "kind": "BooleanProperty",
-    "name": "decreasing",
-    "defaultValue": false,
-    "description": "Should the sort order be increasing or decreasing?"
-  },
-  {
-    "kind": "EnumeratedProperty",
-    "name": "function",
-    "defaultValue": "mean",
-    "values": [
-      "mean",
-      "median",
-      "sd",
-      "var",
-      "min",
-      "max",
-      "IQR",
-      "rev"
-    ],
-    "description": "Function to apply row- and column-wise."
-  }
+    {
+      "kind": "BooleanProperty",
+      "name": "decreasing",
+      "defaultValue": false,
+      "description": "Should the sort order be increasing or decreasing?"
+    },
+    {
+      "kind": "EnumeratedProperty",
+      "name": "function",
+      "defaultValue": "mean",
+      "values": [
+        "mean",
+        "median",
+        "sd",
+        "var",
+        "min",
+        "max",
+        "IQR",
+        "rev"
+      ],
+      "description": "Function to apply row- and column-wise."
+    }
   ]
 }
-
-
