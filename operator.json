@@ -1,6 +1,6 @@
 {
   "name": "Order By",
-  "description": "Order data according to row-wise or column-wise metrics.",
+  "description": "Orders data according to row-wise or column-wise metrics.",
   "tags": [
     "preprocessing"
   ],
